@@ -6,7 +6,7 @@ const manager = managerInfo => {
         <div class="card w-48 lg:w-56 bg-slate-300 shadow-xl">
             <div class="card-body">
                 <h2 class="card-title">${managerInfo.name}</h2>
-                <p><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Manager</p>
+                <div><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Manager</div>
                 <row class="">ID: <span>${managerInfo.id}</span></row>
                 <row>EMAIL: <span>${managerInfo.email}</span></row>
                 <row>OFFICE #: <span>${managerInfo.officeNumber}</span></row>
@@ -21,7 +21,7 @@ const engineer = engineerInfo => {
         <div class="card w-48 lg:w-56 bg-slate-300 shadow-xl">
             <div class="card-body">
                 <h2 class="card-title">${engineerInfo.name}</h2>
-                <p><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Engineer</p>
+                <div><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Engineer</div>
                 <row class="">ID: <span>${engineerInfo.id}</span></row>
                 <row>EMAIL: <span>${engineerInfo.email}</span></row>
                 <row>GITHUB USERNAME #: <span>${engineerInfo.github}</span></row>
@@ -36,7 +36,7 @@ const intern = internInfo => {
         <div class="card w-48 lg:w-56 bg-slate-300 shadow-xl">
             <div class="card-body">
                 <h2 class="card-title">${internInfo.name}</h2>
-                <p><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Intern</p>
+                <div><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Intern</div>
                 <row class="">ID: <span>${internInfo.id}</span></row>
                 <row>EMAIL: <span>${internInfo.email}</span></row>
                 <row>SCHOOL: <span>${internInfo.school}</span></row>
@@ -74,7 +74,7 @@ module.exports = employees => {
                 </div>
             </div>
     
-            <div class="justify-center grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 mx-auto gap-y-2">
+            <div class="justify-center grid grid-cols-3 md:grid-cols-5 lg:grid-cols-4 xl:grid-cols-7 mx-auto lg:gap-x-2 gap-y-2">
            
             ${employees.map(employee => {
                 if (employee.getRole() === "Manager") {

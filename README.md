@@ -32,7 +32,7 @@
 - follow prompts to create employees as needed.
   
   ## Screenshot
-  ![Screenshot](/assets/img/)
+  ![Screenshot](/assets/img/Screenshot.png)
   
   ## License
   Copyright (c) Tommyalv. All rights reserved.
