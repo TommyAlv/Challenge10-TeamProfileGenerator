@@ -24,7 +24,7 @@ const engineer = engineerInfo => {
                 <div><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Engineer</div>
                 <row class="">ID: <span>${engineerInfo.id}</span></row>
                 <row>EMAIL: <span>${engineerInfo.email}</span></row>
-                <row>GITHUB USERNAME #: <span>${engineerInfo.github}</span></row>
+                <row>GITHUB: <span>${engineerInfo.github}</span></row>
             </div>
         </div>
     `
