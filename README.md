@@ -18,7 +18,7 @@
   ## Installation
   
 - Download Repo
--run "npm i" in the terminal
+- Run "npm i" in the terminal
   
   ## Usage
   
