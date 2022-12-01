@@ -17,13 +17,8 @@
   
   ## Installation
   
-- Installation
-- Usage
-- License
-- Features
-- How To Contribute
-- Tests
-- Questions
+- Download Repo
+-run "npm i" in the terminal
   
   ## Usage
   
