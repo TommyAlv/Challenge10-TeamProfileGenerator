@@ -28,6 +28,7 @@
   
   ## Screenshot
   ![Screenshot](/assets/img/Screenshot.png)
+  ![Screenshot](/assets/img/TeamProfileGenerator.gif)
   
   ## License
   Copyright (c) Tommyalv. All rights reserved.
