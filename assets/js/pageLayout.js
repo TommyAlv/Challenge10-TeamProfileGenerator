@@ -8,7 +8,7 @@ const manager = managerInfo => {
                 <h2 class="card-title">${managerInfo.name}</h2>
                 <div><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Manager</div>
                 <row class="">ID: <span>${managerInfo.id}</span></row>
-                <row>EMAIL: <span>${managerInfo.email}</span></row>
+                <row>EMAIL: <a href='mailto:${managerInfo.email}'>${managerInfo.email}</a></row>
                 <row>OFFICE #: <span>${managerInfo.officeNumber}</span></row>
             </div>
         </div>
@@ -23,8 +23,8 @@ const engineer = engineerInfo => {
                 <h2 class="card-title">${engineerInfo.name}</h2>
                 <div><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Engineer</div>
                 <row class="">ID: <span>${engineerInfo.id}</span></row>
-                <row>EMAIL: <span>${engineerInfo.email}</span></row>
-                <row>GITHUB: <span>${engineerInfo.github}</span></row>
+                <row>EMAIL: <a href='mailto:${engineerInfo.email}'>${engineerInfo.email}</a></row>
+                <row>GITHUB: <a href='https://www.github.com/${engineerInfo.github}'>${engineerInfo.github}</a></row>
             </div>
         </div>
     `
@@ -38,7 +38,7 @@ const intern = internInfo => {
                 <h2 class="card-title">${internInfo.name}</h2>
                 <div><i class="fa-sharp fa-solid fa-mug-hot mr-1"></i>Intern</div>
                 <row class="">ID: <span>${internInfo.id}</span></row>
-                <row>EMAIL: <span>${internInfo.email}</span></row>
+                <row>EMAIL: <a href='mailto:${internInfo.email}'>${internInfo.email}</a></row>
                 <row>SCHOOL: <span>${internInfo.school}</span></row>
             </div>
         </div>
